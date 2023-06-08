@@ -1,0 +1,89 @@
+<!--
+    *** Integrantes ***
+    Maria Clara Campos Miquelito
+    Kauan Ferreira Rezende
+    2° informática
+--> 
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Cadastro </title>
+        <link rel="icon" type="image/png" href="/assets/icon.png">
+
+        <link rel="stylesheet" href="/styles/login.css">
+       
+    </head>
+
+    <body>
+
+        <main class = "apresentacao">
+            
+            
+            <img class="logo" src="/assets/Logo.png" width="300" height="300">
+           
+            <div class ="conteudo_login">
+                <form action="/login.html">
+                    <div class ="imagem_input_total">
+                        <div class="campo_imagem">   
+                            <input class = "campo_login" type="text" placeholder="Nome completo" required><br><br>
+                            <div class="campo_imagem_input">
+                                <img src="/assets/nomecompleto.png" width="25" height="20">
+                            </div><!--campo_imagem_input-->  
+                        </div><!--campo_imagem--> 
+
+                        <div class="campo_imagem">   
+                            <input class = "campo_login" type="text" placeholder="Nome de usuário" required><br><br>
+                            <div class="campo_imagem_input">
+                                <img src="/assets/user.png" width="18" height="18">
+                            </div><!--campo_imagem_input-->  
+                        </div><!--campo_imagem-->                    
+
+                        <div class="campo_imagem">   
+                            <input class = "campo_login" type="email" placeholder="E-mail" required><br><br>
+                            <div class="campo_imagem_input">
+                                <img src="/assets/Email.png" width="20" height="15">
+                            </div><!--campo_imagem_input-->  
+                        </div><!--campo_imagem-->                    
+
+                        <div class="campo_imagem">   
+                            <input class = "campo_login" type="password" placeholder="Senha" required><br><br>
+                            <div class="campo_imagem_input">
+                                <img src="/assets/cadeadoSemFundo.png" width="25" height="25">
+                            </div><!--campo_imagem_input-->
+                        </div><!--campo_imagem-->                    
+
+
+                        <div class="campo_imagem">
+                            <input class = "campo_login" type="password" placeholder="Confirmação de senha" required><br><br>
+                            <div class="campo_imagem_input">
+                                <img src="/assets/cadeadoSemFundo.png" width="25" height="25">
+                            </div><!--campo_imagem_input-->
+                        </div><!--campo_imagem-->     
+
+                    </div><!--imagem_input-total-->
+                    <div class="alinhamento_registro">
+                        <button class = "botao" type="submit"> Criar conta </buttom><br><br>
+                    </div>
+                    
+                </div><!--conteudo_login--> 
+                </form>
+                <div class="reg">
+                    <a class="Registro" href="/login.html">Já tem conta? Registre-se</a>
+                </div>
+            </main>
+        <div class="Rodape-Cadastro">
+            <footer class = "rodape">
+                <p>Desenvolvido por MK-Tech</p>
+            </footer>
+        </div>   
+
+    </body>
+
+</html>
