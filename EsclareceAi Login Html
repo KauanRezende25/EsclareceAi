@@ -1,0 +1,72 @@
+<!--
+    *** Integrantes ***
+    Maria Clara Campos Miquelito
+    Kauan Ferreira Rezende
+    2° informática
+-->
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Login </title>
+        <link rel="icon" type="image/png" href="/assets/icon.png"/>
+
+        <link rel="stylesheet" href="/styles/login.css">
+
+    </head>
+
+    <body> 
+        
+        <main class = "apresentacao">
+
+            <img src="/assets/Logosemfundo.png" width="300" height="300">
+            
+            <div class ="conteudo_login">
+                <form action="/principal.html">
+                    <div class ="imagem_input_total">
+                        <div class="campo_imagem">
+                            <input class = "campo_login" type="email" placeholder="E-mail" required><br><br>
+                            <div class="campo_imagem_input">
+                                <img src="/assets/Email.png" width="20" height="15">
+                            </div><!--campo_imagem_input-->
+                        </div><!--campo_imagem-->
+
+                        <div class="campo_imagem">
+                            <input class = "campo_login" type="password" placeholder="Senha" required><br><br>
+                            <div class="campo_imagem_input">
+                                <img src="/assets/cadeadoSemFundo.png" width="25" height="25">
+                            </div><!--campo_imagem_input-->
+                        </div><!--campo_imagem-->
+                    </div><!--imagem_input-total-->
+
+                    <div class="lembrar_senha">
+                        <input class="lembrar_senha_check" type="checkbox" id="guardar_senha">
+                        <label class="lembrar_senha_conteudo" for="guardar_senha">Lembrar minha senha</label> <br>
+                    </div>
+
+                </div>
+                
+                <button class ="botao" type="submit"> Entrar </button>
+
+            </form>
+
+            <div class="alinharegistro">
+                <a class="Registro" href=""> Esqueceu a senha?</a> <br>
+                <a class="Registro" href="cadastro.html"> Não tem uma conta? Cadastrar-se</a>
+            </div>
+        </main>
+
+        <div class="Rodape-login">
+            <footer class = "rodape">
+                <p>Desenvolvido por MK-Tech</p>
+            </footer>
+        </div>
+    </body>
+
+</html>
