@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.root{
+    --cor-primaria: #00216a;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #1FB0E0;
+    --cor-quarten�ria: #000;
+    --cor-hover: rgb(176, 224, 230);
+    --cor-rodape: rgb(41, 51, 194);
+
+    --fonte-primaria: 'Montserrat',sans-serif;
+    --fonte-secundaria: 'Krona One',sans-serif;
+}
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    flex-direction:column; 
+    align-items: center;
+}   
+body
+{
+    color:#ffffff;
+    font-size: 40px;
+    background-color: #00216a;
+}
+.conteudo_login{
+    display: flex;
+    margin-top: -3.5%;
+    padding: 0%;
+    
+
+}
+.campo_login{
+    padding: 15px;
+    width: 350px; 
+    background-color: #00216a;
+    border: 2px solid #1FB0E0;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 10px 0px 0px 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.campo_login::placeholder{
+    color:#fbf5f5;
+}
+.campo_imagem{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -15px;
+}
+.campo_imagem_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1FB0E0;
+    width: 50px;
+    height: 56.5px;
+    border-radius: 0px 30px 10px 0px;
+}
+.botao
+{
+    display: flex;
+    align-content: baseline;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #1FB0E0;    
+    border: none;    
+    padding: 20px;
+    width: 150px;
+    border-radius:10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: bold;
+    letter-spacing: 0.15px;
+    height: 60px;
+}
+.botao:hover    /*mouse em cima do bot�o*/
+{
+    background: rgb(84, 198, 255);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.Registro
+{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+    margin-top: 1%;
+}
+.Registro:hover
+{
+    color : rgb(191, 208, 215);
+}
+.rodape
+{
+    background-color: rgb(41, 51, 194);
+    position: relative;   
+    padding-bottom: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.8rem;
+    padding: 15px;
+    width: 100%;
+    color:#ffffff;
+    font-family: 'Krona One',sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+.alinhamento_registro
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.alinharegistro
+{
+    margin-top: 1%;
+}
+.reg
+{
+    margin-bottom: -5%;
+}
+
+.Rodape-Cadastro
+{
+    position: relative;
+    top: 20vh;
+}
+
+.Rodape-login
+{
+    position: relative;
+    top: 14.2vh;
+}
+
+.lembrar_senha
+{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    gap: .5rem;
+    text-align: center;
+}   
+
+.lembrar_senha_conteudo
+{
+   
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+    
+}
+
+.lembrar_senha_check
+{
+    display: none;
+}
+
+.lembrar_senha input + label:before
+{
+    content: '';
+    border: solid #ffffff;
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    vertical-align: middle;
+    margin-bottom: .2rem;
+    margin-right: .7rem;
+    border-radius: .3rem;
+    
+}
+
+.lembrar_senha input:checked + label:before
+{
+   
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    background-position: center;
+}
+
+
+@media (max-width: 530px)
+{
+    .campo_login
+    {
+        width: 300px;
+    }
+    .rodape
+    {
+        margin-top: 5px;
+    }
+    
+}
+
+@media (max-width: 400px)
+{
+    .campo_login
+    {
+        width: 220px;
+    }
+    .Registro
+    {
+        display: flex;
+        width: 230px;
+        justify-content: center;
+    }
+    .rodape
+    {
+        position: relative;
+    }
+}
+
+@media (min-height: 750px)
+{
+    .apresentacao
+    {
+        width: 100vw;
+        height: 90vh;
+        
+    }
+}   
