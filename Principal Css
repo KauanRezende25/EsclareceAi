@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root
+{
+    --cor-primaria: #00216a;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #1FB0E0;
+    --cor-quartenária: #000;
+    --cor-hover: rgb(176, 224, 230);
+    --cor-rodape: #03153c;
+
+    --fonte-primaria: 'Montserrat',sans-serif;
+    --fonte-secundaria: 'Krona One',sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    overflow-x: hidden;
+}
+/*============================================= Cabeçalho =============================================*/
+.cabecalho
+{
+    display: flex;
+    width: 100%;
+    background-color: #03153c;
+    height: 90px;
+
+}
+.centro
+{
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+    margin-top: 30px;
+}
+.logo
+{
+    margin-top: 0.2%;
+    padding-left: 20px;
+    align-self: center;
+}
+.cabecalho_menu
+{
+    display: flex;
+    align-items: baseline;
+    gap: 100px;  
+    margin-right: 5%;  
+}
+.cabecalho_menu_links
+{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: var(--fonte-primaria,sans-serif);
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.15px;
+    align-items: center;
+    margin-top: 1%;
+
+}  
+.cabecalho_menu_links:hover
+{
+    color : rgb(191, 208, 215);
+}
+.botao
+{
+    text-decoration: none;
+    padding: 25px;
+    margin-bottom: 200px;
+    font-size: 20px;
+    font-family: var(--fonte-secundaria,sans-serif);
+    border-radius: 15px;
+    background-color: var(--cor-terciaria);
+    border: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+}
+.botao:hover
+{
+    background-color: var(--cor-hover);
+    color: var(--cor-quartenária);
+}
+
+/*============================================= Menu Lateral =============================================*/
+
+.menu_lateral_links
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: var(--fonte-secundaria,sans-serif);
+    font-size: 14px;
+    text-align: start;
+    background-color: #ffffff;
+    border-radius: 100%;
+    padding: 10px;
+    padding-bottom: 9.9px;
+    margin: 7px 5px 6px 12px;
+}
+
+.menu_lateral_links:hover
+{
+    background-color: var(--cor-hover);
+    color: var(--cor-quartenária);
+    border-color: #000;
+    border: none;
+    border-radius: .5rem;
+    padding: 5px 5px 10px;
+    margin-bottom: 0.745rem;
+}
+
+.imagem_menu_lateral
+{
+    width: 30px;
+}
+.navegacao_menu_lateral
+{
+    width: 14rem;
+    height: 105.47%;
+    left: 0px;
+    position: absolute;
+    border-right: 0.1rem solid;
+    border-bottom: 0.1rem solid;
+    border-color: #afafaf92;
+    border-radius: 0 0 0.4rem 0;
+    padding-bottom: 0px;
+    padding-left: 8px;
+
+}
+
+/*============================================= Rodapé =============================================*/
+.rodape
+{
+    margin-top: 40px;
+    background-color: var(--cor-rodape);
+    padding: 20px;
+    color: var(--cor-secundaria);
+    font-family: 'Krona One',sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+/*============================================= Perguntas =============================================*/
+.campo_perguntas
+{
+    display: flex;
+    flex-direction:column; 
+    align-items: center;
+    width: 500px;
+    margin-left: 600px;
+}
+.titulo
+{
+    margin-top: 2%;
+    margin-bottom:2%;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    color:#00216a;
+    font-family: 'Secular One',sans-serif;
+    font-size: 35px;
+    width: 600px;
+}
+.conteudo_pergunta
+{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    transform: translateY(35px);
+    width: 900px;
+    transform: translateX(-80px);
+    align-content: center;
+}
+.perguntas_informacoes
+{
+    display: flex;
+    margin: 50px 50px 0 50px;
+    flex-direction: row;
+}
+.info_informacoes{
+    display: flex;
+    align-self: flex-end;
+}
+.total_informacoes{
+    
+    padding: 0px 500px 50px 50px;
+    transform: translateX(-50px);
+}
+.info_nome_user
+{
+    display: flex;
+    align-items: center;
+    transform: translateX(-10px);
+
+}
+.nome_user
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.info_informacoes
+{
+    display: flex;
+    align-self: flex-end;
+    transform: translateY(20px);
+    
+}
+.informacoes
+{
+    font-size: 15px;
+    border-radius: 5px;
+    align-self: center;
+    align-self:flex-end;
+    background-color: rgb(191, 216, 238); 
+    padding: 5px;   
+    font-weight: bold;
+}
+.texto_pergunta
+{
+    font-size: 17px;
+    margin: 0 50px 50px 50px;
+}
+.imagem_user
+{
+    display: flex;
+    margin-left: 5%;
+    border-radius: 100%;
+}
+.Resposta
+{
+    display: flex;
+    color: #00216a;
+    margin-top: -3%;
+    margin-left: 5.3%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    font-family: 'Krona One', sans-serif;
+    margin-right: 100%;
+}
+
+@media (max-width: 1200px) 
+{
+    .conteudo_pergunta
+    {
+        width: 600px;
+    }
+    .cabecalho
+    {
+        width: 100%;
+       
+    }
+}
