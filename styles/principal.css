@@ -3,8 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+<<<<<<< HEAD
 :root
 {
+=======
+:root {
+>>>>>>> 2b14468 (Mudando o site todo)
     --cor-primaria: #00216a;
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #1FB0E0;
@@ -12,6 +16,7 @@
     --cor-hover: rgb(176, 224, 230);
     --cor-rodape: #03153c;
 
+<<<<<<< HEAD
     --fonte-primaria: 'Montserrat',sans-serif;
     --fonte-secundaria: 'Krona One',sans-serif;
 }
@@ -108,6 +113,89 @@ body
 .menu_lateral_links:hover
 {
     background-color: var(--cor-hover);
+=======
+    --fonte-primaria: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Krona One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo {
+    margin-bottom: -40px;
+    margin-top: -50px;
+}
+
+/*============================================= Cabeçalho =============================================*/
+/*No css do cabeçalho mudamos a cor da fonte, o tamanho da fonte e a fonte. Além disso também usamos para ajustar e personalizar o cabeçalho do nosso site*/
+.links_navbar {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.links_links_navbar {
+    display: flex;
+    gap: 50px;
+}
+.nav-link{
+    color: #f6f6f6;
+}
+.botao {
+    text-decoration: none;
+    padding: 1px 4px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #4FAFFF;
+    border: #4FAFFF;
+    margin-left: 15px;
+}
+.nav-link:hov
+{
+    opacity: 80%;
+}
+
+.cabecalho_botao
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: #fff;
+}
+.btn:hover
+{
+    opacity: 80%;
+}
+.navbar
+{
+    margin-top: -1rem;
+}
+
+/*============================================= Menu Lateral =============================================*/
+/*Na parte das perguntas não foi utilizado nada diferente além da estilização dos elementos*/
+
+.menu_lateral_links {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: var(--fonte-primaria, sans-serif);
+    font-size: 14px;
+    text-align: start;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-bottom: 9.9px;
+    margin: 7px 15px 6px 12px;
+    width: 13rem;
+    font-weight: bold;
+}
+
+.menu_lateral_links:hover {
+    background-color:#DAECFB;
+>>>>>>> 2b14468 (Mudando o site todo)
     color: var(--cor-quartenária);
     border-color: #000;
     border: none;
@@ -116,6 +204,7 @@ body
     margin-bottom: 0.745rem;
 }
 
+<<<<<<< HEAD
 .imagem_menu_lateral
 {
     width: 30px;
@@ -130,12 +219,23 @@ body
     border-bottom: 0.1rem solid;
     border-color: #afafaf92;
     border-radius: 0 0 0.4rem 0;
+=======
+.imagem_menu_lateral {
+    width: 30px;
+}
+
+.navegacao_menu_lateral {
+    width: 14rem;
+    left: 0px;
+    position: absolute;
+>>>>>>> 2b14468 (Mudando o site todo)
     padding-bottom: 0px;
     padding-left: 8px;
 
 }
 
 /*============================================= Rodapé =============================================*/
+<<<<<<< HEAD
 .rodape
 {
     margin-top: 40px;
@@ -244,11 +344,205 @@ body
     margin-top: -3%;
     margin-left: 5.3%;
     margin-bottom: 2%;
+=======
+/*na parte do rodape o que de diferente usamos é o background: linear-gradient que foi utilizado para fazer os riscos embaixos dos titulos */
+.rodape {
+    background-color: #0089e4;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    display: flex;
+    gap: 12rem;
+    align-content: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1.5rem;
+    margin-top: 10rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.info_empresa {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.info_empresa_element {
+    background-image: linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: left bottom;
+    background-position-y: 1.8rem;
+    height: 50px;
+    width: 70px;
+    margin-bottom: -0.5rem;
+}
+
+.info_contatos {
+    display: flex;
+    gap: .2rem;
+    flex-direction: column;
+    justify-content: baseline;
+    justify-items: baseline;
+
+}
+
+.elementos {
+    display: flex;
+    justify-items: baseline;
+    gap: .5rem;
+    margin-bottom: -.3rem;
+    font-size: 14px;
+}
+
+.rodape_element {
+    background-color: #005E9D;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    color: white;
+    padding: -5rem;
+    margin-top: -2rem;
+}
+
+.rodape_element_info {
+    margin-top: 1%;
+    display: flex;
+    gap: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.sublinhado {
+    display: flex;
+    margin-top: 2rem;
+    background-color: white;
+
+}
+
+.info_links_element {
+    background-image: linear-gradient(white, white);
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: left bottom;
+    background-position-y: 1.8rem;
+    height: 50px;
+    width: 90px;
+    margin-bottom: -0.5rem;
+}
+
+.elementos_suporte {
+    display: flex;
+    justify-items: baseline;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.elementos_suporte:hover {
+    transition: 0.2ms;
+    opacity: 80%;
+}
+
+/*============================================= Perguntas =============================================*/
+/*Na parte das perguntas não foi utilizado nada diferente além da estilização dos elementos*/
+
+.campo_perguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1050px;
+    margin-right: 20px;
+}
+.titulo-menu {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: .1rem;
+    margin-top: 1.5rem;
+}
+
+.titulo {
+    display: flex;
+    margin-top: 2%;
+    color: #0089e4;
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.conteudo_pergunta {
+    background-color: #DAECFB;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 900px;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.perguntas_informacoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+.info_nome_user {
+    display: flex;
+    align-items: center;
+}
+
+.info_informacoes {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 22px;    
+}
+
+.imagem_user {
+    display: flex;
+    border-radius: 100%;
+}
+
+.nome_user {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info_informacoes {
+    display: flex;
+}
+
+.informacoes {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #ff990088;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+.texto_pergunta {
+    font-size: 17px;
+    margin-left: 40px;
+    margin-right: 40px;    
+}
+
+.Resposta {
+    display: flex;
+    color: #ff9a3e;
+>>>>>>> 2b14468 (Mudando o site todo)
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 1.3px;
     font-family: 'Krona One', sans-serif;
+<<<<<<< HEAD
     margin-right: 100%;
 }
 
@@ -264,3 +558,196 @@ body
        
     }
 }
+=======
+    margin-left: 40px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.icon_usuario {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.elementos_perguntas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.botaomais
+{
+    background-color: #0089e4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem; 
+   
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+    
+    transform: translate(79vw, -50vh);
+    position: fixed;
+    margin-top: -7rem;
+    
+}
+.areabotao
+{
+    
+    display: flex;
+    align-content: center;
+    align-self: center;
+}
+
+.botaomais:hover
+{
+    opacity: 80%;
+}
+
+/*responsividade laptop*/
+
+@media (max-width: 1024px) {
+    .rodape {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .adicionais {
+        margin-top: -7rem;
+        margin-left: 3rem;
+    }
+
+    .contatos {
+        margin-top: -11rem;
+    }
+
+    .links {
+        margin-top: -11rem;
+    }
+
+    .conteudo_pergunta {
+        width: 30rem;
+        margin-left: 15rem;
+
+    }
+
+    .titulo {
+        margin-left: 18rem;
+
+    }
+    .campo_perguntas
+    {
+        width: 60rem;
+    }
+}
+
+/*responsividade telas 4K*/
+@media (max-width: 2561px)
+{
+    .campo_perguntas
+    {
+        margin-left: -25rem;
+    }
+}
+
+/*Responsividade tablet*/
+@media (max-width: 770px) { 
+    .rodape {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .contatos {
+        margin-top: -11rem;
+    }
+
+    .links {
+        margin-top: -11rem;
+    }
+
+    .conteudo_pergunta {
+        width: 20rem;
+        margin-left: 10rem;
+    }
+
+    .titulo {
+        font-size: 30px;
+        margin-left: 8rem;
+    }
+    .campo_perguntas
+    {
+        width: 40rem;
+        margin-left: 5rem;
+    }
+    .titulo-menu
+    {
+        margin-top: 1rem;
+    }
+}
+
+/*reponsividade mobile G*/
+@media (max-width: 520px) {
+    .rodape {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 4rem;
+    }
+
+    .suporte {
+        margin-top: -11rem;
+    }
+
+    .elementos_perguntas {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .campo_perguntas {
+        margin-top: 55rem;
+        margin-left: -5rem;
+        width: 20rem;
+    }
+    .titulo-menu
+    {
+        margin-top: -1rem;
+    }
+    .menu_lateral
+    {
+        margin-top: 1rem;
+    }
+}
+/*reposividade mobile M*/
+@media (max-width: 376px) {
+    .conteudo_pergunta
+    {
+        margin-left: 6rem;
+        width: -2rem;
+        
+    }
+    .campo_perguntas
+    {
+        margin-bottom: -5rem;
+    }
+    
+}
+
+/*reposividade mobile P*/
+@media (max-width: 321px) {
+    .conteudo_pergunta
+    {
+        margin-left: 6rem;
+        width: 18rem;
+        
+    }
+    .campo_perguntas
+    {
+        margin-bottom: -5rem;
+    }
+    
+}
+>>>>>>> 2b14468 (Mudando o site todo)
