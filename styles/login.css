@@ -83,6 +83,7 @@ body {
     border: solid #4fafff;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
 
 .campo_login::placeholder {
