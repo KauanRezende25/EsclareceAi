@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Login </title>
     <link rel="icon" type="image/png" href="/assets/Logo_sem_escrito_sem_fundo.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="/styles/login.css">
 
@@ -36,7 +37,10 @@
 
                         <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" required>
 
-                        <input class="campo_login" type="password" id="icone_senha" placeholder="Senha" required>
+                        <div class="mostrar_senha">
+                            <input class="campo_login" type="password" id="icone_senha" placeholder="Senha" required>
+                            <i class="bi bi-eye" id="senhabtn" onclick="mostrar()" style="font-size: 1.7rem; margin-top: .65rem; margin-left: -3rem;"></i>
+                        </div>
 
                     </div>
 
@@ -67,6 +71,8 @@
     <!--<footer class="rodape">
         <p>Desenvolvido por MK-Tech</p>
     </footer>-->
+
+    <script src="/main.js"></script>
 </body>
 
 </html>

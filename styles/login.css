@@ -124,6 +124,15 @@ body {
     align-self: center;
 }
 
+.mostrar_senha
+{
+    font-size: 1.8rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: -.9rem;
+}
+
 /*============================================= LEMBRAR SENHA =============================================
 (pertence apenas a tela de login)*/
 .lembrar_senha {
