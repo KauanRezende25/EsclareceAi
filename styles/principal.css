@@ -71,7 +71,20 @@ body {
 {
     margin-top: -1rem;
 }
-
+.pesquisa{
+    margin-top: 30px;
+}
+.pesquisa_e_botao{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.botaoPerguntas{
+    display: flex;
+    justify-content: flex-end;
+    color:#005E9D;
+    font-size: 50px;
+}
 /*============================================= Menu Lateral =============================================*/
 /*Na parte das perguntas não foi utilizado nada diferente além da estilização dos elementos*/
 
@@ -127,7 +140,6 @@ body {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 1.5rem;
-    margin-top: 10rem;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -225,7 +237,9 @@ body {
     justify-content: center;
     width: 1050px;
     margin-right: 20px;
+    padding-bottom: 5rem;
 }
+
 .titulo-menu {
     display: flex;
     align-items: center;
