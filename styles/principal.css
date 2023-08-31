@@ -313,6 +313,7 @@ body {
     margin-left: 40px;
     margin-top: -5px;
     margin-bottom: 10px;
+    margin-top: 1rem;
 }
 
 .icon_usuario {
@@ -325,6 +326,48 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.alinhamento_resp
+{
+    display: flex;
+    justify-content: baseline;
+}
+
+.rating 
+{
+    display: flex;
+    font-size: 2rem;
+    margin-left: 34rem;
+}
+.star-icon
+{
+    list-style-type: none;
+    cursor: pointer;
+    color: #ff9a3e;
+}
+
+.star-icon::before
+{
+    content: "\2605";
+    
+}
+.star-icon.ativo ~ .star-icon::before
+{
+    content: "\2606";
+    
+}
+.avaliacao:hover .star-icon::before
+{
+    content: "\2605";
+    
+}
+
+.star-icon:hover ~ .star-icon::before
+{
+    content: "\2606";
+    
+}
+
 
 /*responsividade laptop*/
 
