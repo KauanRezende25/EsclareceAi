@@ -104,7 +104,7 @@ body {
     background-repeat: no-repeat;
     background-position: left;
     background-size: 2.2em;
-    padding-left: 2.5em; 
+    padding-left: 2.3em; 
     align-self: center;
 }
 /*ÍCONES INPUT CADASTRO*/
@@ -124,7 +124,6 @@ body {
     padding-left: 2.5em; 
     align-self: center;
 }
-
 .mostrar_senha
 {
     font-size: 1.8rem;
