@@ -36,29 +36,11 @@
 
                         <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" required>
 
-                        <div class="mostrar_senha">
-                            <div id="erroSenha">
-                                <input class="campo_login" type="password" name="senha" id="senha" onkeyup="validarSenha()">
-                            </div>
-                            <i class="bi bi-eye" id="senhabtn" onclick="mostrar()" style="font-size: 1.7rem; margin-top: .65rem;"></i>
+                            <input class="campo_login" type="password" placeholder = "Senha" class ="inputs required oninput="validarSenha()">
+                            
+                            <span class = "span_required">Mínino de 8 caracteres</span>
+
                         </div>
-                        <!--
-                            <div id="erroSenha"></div>
-                            Senha: <input type="password" name="senha" id="senha" onkeyup="validarSenha()">
-
-                            function validarSenha(){
-                            var senha = document.getElementById("senha").value;
-
-                                if(senha == "" || senha.length <= 5){
-                                    document.getElementById("erroSenha").innerHTML = "<span style = 'color: #ff0000;'>Preencha o campo, senha com mínimo de 6 caracteres</span>"
-                                }
-
-                                    else{
-                                        document.getElementById("erroSenha").innerHTML = "<span style = 'color : #00ff00;'>Senha válida</span>"
-                                    }
-
-                            }
-                        -->
 
                     </div>
 

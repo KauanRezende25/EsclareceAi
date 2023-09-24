@@ -17,15 +17,15 @@ function mostrar()
 }
 
 function validarSenha(){
-    var senha = document.getElementById("senha").value;
+    const span = document.querySelectorAll('.span_required');
 
-        if(senha == "" || senha.length <= 5){
-            document.getElementById("erroSenha").innerHTML = "<span style = 'color: #ff0000; font-size:10px;'>Mínimo de 6 caracteres </span><br><br>"
-        }
-
-            else{
-                document.getElementById("erroSenha").innerHTML = "<span style = 'color : #00ff00;'>Senha válida</span>"
-            }
+    if(span.length < 8 ){
+        setError(2);
+    }
+    else{
+        removeError(2);
+    }
+     
 
 }
 function confereSenha(){
