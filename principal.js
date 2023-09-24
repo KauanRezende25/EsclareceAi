@@ -1,4 +1,5 @@
 var stars = document.querySelectorAll('.star-icon');
+
 document.addEventListener('click', function(e)
 {
     var classStar =e.target.classList;

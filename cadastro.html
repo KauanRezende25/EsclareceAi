@@ -16,6 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Cadastro </title>
     <link rel="icon" type="image/png" href="/assets/Logo_sem_escrito_sem_fundo.png">
+    <link rel="icon" type="image/png" href="/assets/icon.png" />
 
     <link rel="stylesheet" href="/styles/login.css">
 
@@ -28,7 +29,7 @@
         <div class="total_cadastro"> <!--Div que engloba todos os elementos dentro do formulário-->
 
             <img class="Logo" src="/assets/EsclareceAi__3_-removebg-preview.png" width="250" height="250"> 
-            <form action="/login.html"> <!--Action direciona para a tela de login ao clicar no botão do formulário-->
+            <form action = "/login.html"> <!--Action direciona para a tela de login ao clicar no botão do formulário-->
 
                 <div class="conteudo_login"> <!--Div que engloba todos os Campos do input-->
 
@@ -38,10 +39,17 @@
 
                     <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" required>
                                
-                    <input class="campo_login" type="password" id="icone_senha" placeholder="Senha" required>
+                    <div class="mostrar_senha">
+                        <input class ="campo_login" type="password" name="senha" size="15" placeholder ="Senha" id = "icone_senha" required onchange='confereSenha()'>
+                        <i class="bi bi-eye" id="senhabtn" onclick="mostrar()" style="font-size: 1.7rem; margin-top: .65rem; margin-left: -3rem;"></i>
+                    </div>
 
-                    <input class="campo_login" type="password" id="icone_senha" placeholder="Confirmação de senha" required>
-                
+                    <div class="mostrar_senha">
+                        <input class="campo_login" type="password" name="confirma" size="15" placeholder = "Confirmação da senha" id ="icone_senha" required onchange='confereSenha()'>
+
+                        <i class="bi bi-eye" id="senhabtn" onclick="mostrar()" style="font-size: 1.7rem; margin-top: .65rem; margin-left: -3rem;"></i>
+                    </div>
+
                 </div><!--conteudo_login-->
             
             <!--Botão de login-->
@@ -63,6 +71,7 @@
         </footer>-->
     </div>
 
+    <script src="/Login.js"></script>
 </body>
 
 </html>
