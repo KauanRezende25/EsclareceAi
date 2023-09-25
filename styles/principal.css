@@ -274,6 +274,8 @@ body {
 .info_nome_user {
     display: flex;
     align-items: center;
+    gap: 1rem;
+    margin-left: 1.5rem;
 }
 
 .info_informacoes {

@@ -77,7 +77,8 @@ body {
     gap: 30px;
 }
 .campo_login {
-    padding: 10px;
+    line-height: 40px;
+    padding: 0 50px 0px 20px;
     width: 400px;
     background-color: #4fafff;
     border: solid #4fafff;
@@ -131,6 +132,16 @@ body {
     align-content: center;
     justify-content: center;
     margin-left: -3rem;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+    font-size: 1.8rem;
+    margin-left: 1px;
+}
+.olhinho{
+    position: absolute;
+    right: 4%;
+    color:#003c63;
 }
 
 /*============================================= LEMBRAR SENHA =============================================
@@ -163,7 +174,6 @@ body {
     vertical-align: middle;
     border-radius: .3rem;
     margin-right: 7px;
-    
 }
 
 .lembrar_senha input:checked+label:before {

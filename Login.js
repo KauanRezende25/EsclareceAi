@@ -1,18 +1,35 @@
-function mostrar()
+function mostrarSenha()
 {
     var imputPass= document.getElementById('icone_senha');
-    var btn = document.getElementById('senhabtn');
+    var btn = document.getElementById('btn-senha');
 
     if(imputPass.type === 'password')
     {
         imputPass.setAttribute('type', 'text');
-        btn.classList.replace('bi-eye','bi-eye-slash');
+        btn.classList.replace('bi-eye-fill', 'bi-eye-slash-fill');
         
     }
     else
     {
         imputPass.setAttribute('type', 'password');
-        btn.classList.replace('bi-eye-slash','bi-eye');
+        btn.classList.replace('bi-eye-slash-fill','bi-eye-fill');
+    }
+}
+function mostrarSenha2()
+{
+    var imputPass= document.getElementById('icone_senha');
+    var btn = document.getElementById('btn-senha2');
+
+    if(imputPass.type === 'password')
+    {
+        imputPass.setAttribute('type', 'text');
+        btn.classList.replace('bi-eye-fill', 'bi-eye-slash-fill');
+        
+    }
+    else
+    {
+        imputPass.setAttribute('type', 'password');
+        btn.classList.replace('bi-eye-slash-fill','bi-eye-fill');
     }
 }
 
