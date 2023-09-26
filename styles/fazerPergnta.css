@@ -16,29 +16,36 @@
 
 .campo_total_fazer_pergunta{
     display: flex;
-    height: 27em;
+    height: 35em;
     width: 50em;
     background-color: white;
     border-radius: 1em;
     flex-direction: column;
+    margin-top: 5em;
 }
 .cabecalho_pergunta{
     display: flex;
     align-items: baseline;
-    gap: 30px;
+    gap: 195px;
+    margin-top: 2em;
 }
-.logo{
-    margin-top: -1em;
-    margin-right: -1rem;
-    margin-left: 0.3rem;
-}
+
 .titulo_campo_pergunta{
     display: flex;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: bold;
     border:none;
-    margin-right: 1.8rem;
+    margin-left: 2.5em;
+}
+.orientacoes{
+    margin-left: 2.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.titulo_orientacoes{
+    margin-left: -1rem;
+    font-weight: bold;
 }
 .botao_escolher_disciplina{
     display: flex;
@@ -52,7 +59,7 @@
     padding: 0.5rem 1.7rem;
     position: relative;
     right: 5%;
-    
+    background-color: #f3a051;
 }
 .setinha{
     position: absolute;
@@ -61,12 +68,11 @@
     display:flex;
     align-self: center;
     width: 43rem;
-    height: 15rem;
+    height: 30em;
     border-radius: 1em;
-    background-color: rgb(190, 224, 255);
+    background-color: #89caff;
     outline: 0;
 }
-
 .campo_pergunta::placeholder{
     font-family: 'Montserrat', sans-serif;
     align-self: flex-start;
@@ -74,11 +80,31 @@
 }
 .botao_pergunta{
     display: flex;
+    text-decoration: none;
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     background-color: #FF9800;
-    border:#FF9800; 
     font-size: 1.3em;
+    border-radius: 1.5em;
     width: 6em;
-    border-radius: 1em;
+    height: 2.3em;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 1em 1em 2.6em;
+}
+.rodape_perguntas{
+    display: flex;
+    gap: 25em;
+    height: 6em;
+}
+.campo_botao_pergunta{
+    display: flex;
+    align-self: flex-end;
+}
+.logo{
+    display: flex;
+    height: 10em;
+    width: 10em;
+    margin-top: -2.5em;
 }
