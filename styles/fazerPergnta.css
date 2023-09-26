@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .apresentacao{
-    background-color: #1FB0E0;
+    background-color: #005E9D;
 
 }
 .principal{
@@ -13,18 +13,49 @@
     flex-direction: column;
     align-items: center;
 }
-.logo{
-    display: flex;
-    margin-top: -30px;
-}
+
 .campo_total_fazer_pergunta{
     display: flex;
     height: 27em;
     width: 50em;
     background-color: white;
     border-radius: 1em;
-    margin-top: -50px;
     flex-direction: column;
+}
+.cabecalho_pergunta{
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+}
+.logo{
+    margin-top: -1em;
+    margin-right: -1rem;
+    margin-left: 0.3rem;
+}
+.titulo_campo_pergunta{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    border:none;
+    margin-right: 1.8rem;
+}
+.botao_escolher_disciplina{
+    display: flex;
+    align-items: center;
+}
+.escolher_disciplina{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    border: black;
+    border-radius: 1.5em;
+    padding: 0.5rem 1.7rem;
+    position: relative;
+    right: 5%;
+    
+}
+.setinha{
+    position: absolute;
 }
 .campo_pergunta{
     display:flex;
@@ -33,16 +64,9 @@
     height: 15rem;
     border-radius: 1em;
     background-color: rgb(190, 224, 255);
+    outline: 0;
 }
-.titulo_campo_pergunta{
-    display: flex;
-    margin-left: 3.5rem;
-    margin-top: 1em;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em;
-    font-weight: bold;
-    border:none;
-}
+
 .campo_pergunta::placeholder{
     font-family: 'Montserrat', sans-serif;
     align-self: flex-start;

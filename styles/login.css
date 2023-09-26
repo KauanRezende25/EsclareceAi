@@ -79,52 +79,29 @@ body {
 .campo_login {
     line-height: 40px;
     padding: 0 50px 0px 20px;
-    width: 400px;
+    width: 340px;
     background-color: #4fafff;
     border: solid #4fafff;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     color: #fff;
+    position: relative;
+    outline: 0;
+    margin-left: -10px;
 }
-
+.input_icone{
+    display: flex;
+    flex-direction: row;
+}
+.campo_input_icone{
+    background-color:#4fafff ;
+    height: 1.17em;
+    width: 1.5em;
+}
 .campo_login::placeholder {
     color:#fff;
 }
 
-/*ÍCONES INPUT LOGIN*/
-#icone_email{
-    background-image: url("/assets/Email.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 1.8em;
-    padding-left: 2.5em; 
-    align-self: center;
-}
-#icone_senha{
-    background-image: url("/assets/cadeadoSemFundo.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 2.2em;
-    padding-left: 2.3em; 
-    align-self: center;
-}
-/*ÍCONES INPUT CADASTRO*/
-#icone_nome{
-    background-image: url("/assets/nomecompleto.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 1.8em;
-    padding-left: 2.5em; 
-    align-self: center;
-}
-#icone_user{
-    background-image: url("/assets/IconUser.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 1.8em;
-    padding-left: 2.5em; 
-    align-self: center;
-}
 .mostrar_senha
 {
     font-size: 1.8rem;
@@ -211,7 +188,7 @@ body {
     background-color: #0089e4;
     border: none;
     padding: 10px;
-    width: 400px;
+    width: 390px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     color: #fff;

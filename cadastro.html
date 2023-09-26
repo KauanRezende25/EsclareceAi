@@ -32,28 +32,48 @@
             <form action = "/login.html"> <!--Action direciona para a tela de login ao clicar no botão do formulário-->
 
                 <div class="conteudo_login"> <!--Div que engloba todos os Campos do input-->
-
-                    <input class="campo_login" type="text" id="icone_nome" placeholder="Nome completo" required>
-
-                    <input class="campo_login" type="text" id="icone_nome" placeholder="Nome de usuário" required>                            
-
-                    <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" required>
-                               
-                    <div class="mostrar_senha">
-                        <input maxlength="15" minlength="8" class ="campo_login" type="password" name="senha" size="15" placeholder ="Senha" id = "icone_senha" required onchange='confereSenha()'>
-
-                        <div class="olhinho">
-                            <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
+                    
+                    <div class="input_icone">
+                        <div class="campo_input_icone">
+                            <i class="bi bi-person-fill" style="font-size:2.4rem; margin-left: 0.4em;"></i>
                         </div>
+                        <input class="campo_login" type="text" id="icone_nome" placeholder="Nome completo" required>
+                    </div> 
 
+                    <div class="input_icone">
+                        <div class="campo_input_icone">
+                            <i class="bi bi-person-fill" style="font-size:2.4rem; margin-left: 0.4em;"></i>
+                        </div>
+                        <input class="campo_login" type="text" id="icone_nome" placeholder="Nome de usuário" required>
+                    </div> 
+                            
+                    <div class="input_icone">
+                        <div class="campo_input_icone">
+                            <i class="bi bi-envelope-fill" style="font-size:2.1rem; margin-left: 0.5em;"></i>
+                        </div>
+                        <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" required>
                     </div>
 
-                    <div class="mostrar_senha">
-                        <input maxlength="15" minlength="8" class="campo_login" type="password" name="confirma" size="15" placeholder = "Confirmação da senha" id ="icone_senha" required onchange='confereSenha()'>
-                        <div class="olhinho">
-                            <i class="bi bi-eye-fill" id="btn-senha2" onclick='mostrarSenha2()'></i>
-                        </div>
+
+                    <div class="input_icone">
+                            <div class="campo_input_icone">
+                                <i class="bi bi-lock-fill" style="font-size:0.85em; margin-left: 0.5em;"></i>
+                            </div>
+                            <div class="mostrar_senha">   
+                                <input maxlength="16" minlength="8" class ="campo_login" type="password" name="senha" size="15" placeholder ="Senha" id = "icone_senha" required onchange='confereSenha()'>                                
+                                <i class="bi bi-eye-fill olhinho" id="btn-senha" onclick="mostrarSenha()"></i>
+                            </div>
                     </div>
+
+                    <div class="input_icone">
+                        <div class="campo_input_icone">
+                            <i class="bi bi-lock-fill" style="font-size:0.85em; margin-left: 0.5em;"></i>
+                        </div>
+                        <div class="mostrar_senha">   
+                            <input maxlength="16" minlength="8" class ="campo_login" type="password" name="confirma" size="15" placeholder ="Confirmação de senha" id = "icone_senha" required onchange='confereSenha()'>                                
+                            <i class="bi bi-eye-fill olhinho" id="btn-senha2" onclick="mostrarSenha2()"></i>
+                        </div>
+                </div>
 
                 </div><!--conteudo_login-->
             
