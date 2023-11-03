@@ -24,6 +24,8 @@
 
 <body>
 
+    <?php include "Banco.php" ?>
+
     <main class="apresentacao">
 
         <div class="total_cadastro"> <!--Div que engloba todos os elementos dentro do formulário-->
