@@ -1,35 +1,20 @@
 function mostrarSenha()
 {
-    var imputPass= document.getElementById('icone_senha');
-    var btn = document.getElementById('btn-senha');
+    const imputPass= document.getElementById('icone_senha');
+    const btn = document.getElementById('btn-senha');
 
     if(imputPass.type === 'password')
     {
         imputPass.setAttribute('type', 'text');
-        btn.classList.replace('bi-eye-fill', 'bi-eye-slash-fill');
+        btn.classList.remove('bi-eye-fill');
+        btn.classList.add('bi-eye-slash-fill');
         
     }
     else
     {
         imputPass.setAttribute('type', 'password');
-        btn.classList.replace('bi-eye-slash-fill','bi-eye-fill');
-    }
-}
-function mostrarSenha2()
-{
-    var imputPass= document.getElementById('icone_senha');
-    var btn = document.getElementById('btn-senha2');
-
-    if(imputPass.type === 'password')
-    {
-        imputPass.setAttribute('type', 'text');
-        btn.classList.replace('bi-eye-fill', 'bi-eye-slash-fill');
-        
-    }
-    else
-    {
-        imputPass.setAttribute('type', 'password');
-        btn.classList.replace('bi-eye-slash-fill','bi-eye-fill');
+        btn.classList.add('bi-eye-fill');
+        btn.classList.remove('bi-eye-slash-fill');
     }
 }
 
@@ -56,7 +41,4 @@ function confereSenha(){
             confirma.setCustomValidity('Senhas não conferem');
         }
 }
-
-
-
 

@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fazer pergunta</title>
-    <link rel="stylesheet" href="/styles/fazerPergnta.css">
-    <link rel="icon" type="image/png" href="assets/icon.png">
+    <link rel="stylesheet" href="http://localhost/Projeto_EsclareceAi/styles/fazerPergnta.css">
+    <link rel="icon" type="image/png" href="http://localhost/Projeto_EsclareceAi/assets/icon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -41,12 +41,12 @@
             <div class="rodape_perguntas">
                 <div>
                     <div class="campo_botao_pergunta">
-                        <a class="botao_pergunta" href="/fazerPergunta.html">Publicar</a>
+                        <a class="botao_pergunta" href="http://localhost/Projeto_EsclareceAi/fazerPergunta.php">Publicar</a>
                     </div>
                 </div>
 
                 <div class="campo_logo">
-                        <img class="logo" src="/assets/EsclareceAi__3_-removebg-preview.png">
+                        <img class="logo" src="http://localhost/Projeto_EsclareceAi/assets/EsclareceAi__3_-removebg-preview.png">
                 </div>
             </div>
             

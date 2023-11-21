@@ -7,58 +7,34 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre nós</title>
-
-    <link rel="stylesheet" href="/styles/SobreNos.css">
-    <link rel="icon" type="image/png" href="/assets/icon.png"/>
+    <link rel="stylesheet" href="http://localhost/Projeto_EsclareceAi/styles/principal.css">
+    <link rel="stylesheet" href="http://localhost/Projeto_EsclareceAi/styles/sobrenos.css">
+    <link rel="icon" type="image/png" href="assets/icon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;400&family=Roboto&display=swap"
+      rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
 </head>
 
 <body>
 
-   <!--Cabeçalho-->
-  <!--Usamos o botstrap para fazer um cabeçalho e além disso usamos o style dentro do css para fazer poder personalizar nosso cabeçalho-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-    <div class="container-fluid links_navbar" style="background-color: #0279C9;">
-      <img class="logo" src="/assets/EsclareceAi__3_-removebg-preview.png" width="200" height="200">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav links_links_navbar me-auto mb-2 mb-lg-0">
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/login.html" style="color: white">Entrar</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/principal.html" style="color: white;">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/sobrenos.html" style="color: white">Sobre nós</a>
-          </li>
-
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Pesquisar Resposta" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit" style="border: #4FAFFF; background-color: #4FAFFF; color: white;">Pesquisar</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-  <!--fim do cabeçalho-->
-  
-  <!--Fizemos aqui as informações do projeto e dos desenvolvedores, também usamos o botstrap icon para colocar o icone das redes sociais-->
+  <header>
+    <?php include_once('Temples/Header/header.php') ?>
+  </header>
+   
     <main class="apresentacao"> 
         <div class="texto_apresentacao">
             <p class = "paragrafo">A partir de um trabalho proposto em conjunto das disciplinas de Desenvolvimento de Aplicações WEB e Banco de Dados, 
@@ -75,8 +51,8 @@
         <div class="adicionais">
             <p class="titulo_adicionais">Desenvolvedores do site:</p>
             <div class = "imagens_adicionais">
-                <img class ="imagem" src="/assets/Kauan.jpg" width="210" height="200">
-                <img class ="imagem" src="/assets/Maria.png" width="210" height="200">
+                <img class ="imagem" src="http://localhost/Projeto_EsclareceAi/assets/Kauan.jpg" width="210" height="200">
+                <img class ="imagem" src="http://localhost/Projeto_EsclareceAi/assets/Maria.png" width="210" height="200">
             </div>
 
             <p class="titulo_adicionais">Contatos:</p>
@@ -114,83 +90,18 @@
             </div>
         </div>
     </main>
-    <!--Fim das informações e do projeto-->
 
-    <!--Incio do rodape-->
-    <!--Também usamos o botstrap icon para colocar alguns elementos na parte de contatos-->
     <footer>
-        <div class="rodape">
-          <div class="empresa">
-            <div class="info_empresa_element">
-              <p class="info_empresa">MK-Tech</p>
-            </div>
-            <p>Seu Parceiro Virtual
-            <br>Busca por Conhecimento</p>
-          </div>
-          <div class="suporte">
-            <div class="info_empresa_element">
-              <p class="info_empresa">Suporte</p>
-            </div>
-            <div class="elementos">
-              <a class="elementos_suporte" href="#">Reportar Bugs</a>
-            </div>
-            <div class="elementos">
-              <a class="elementos_suporte" href="#">Central de Ajuda</a>
-            </div>
-            <div class="elementos">
-              <a class="elementos_suporte" href="#">Acessiblidade</a>
-            </div>
-          </div>
-          <div class="links">
-            <div class="info_links_element">
-              <p class="info_empresa">Links Úteis</p>
-            </div>
-            <div class="elementos">
-              <a class="elementos_suporte" href="#">Pagina Inicial</a>
-            </div>
-            <div class="elementos">
-              <a class="elementos_suporte" href="#">Termo de Uso</a>
-            </div>
-            <div class="elementos">
-              <a class="elementos_suporte" href="#">Politíca de Privacidade</a>
-            </div>
-          </div>
-            <div class="contatos">
-              <div class="info_empresa_element">
-                <p class="info_empresa"> Contatos</p> 
-              </div>
-              <div class="info_contatos">
-                <div class="elementos">
-                  <i class="bi bi-envelope"></i>
-                  <p>kauanrezende146@gmail.com</p> 
-                </div>
-                <div class="elementos">
-                  <i class="bi bi-envelope"></i>
-                  <p>miquelitomaria@gmail.com</p> 
-                </div>
-                <div class="elementos">
-                  <i class="bi bi-telephone" ></i>
-                  <p>+55 32 99983-0653</p> 
-                </div>
-                <div class="elementos">
-                  <i class="bi bi-telephone" ></i>
-                  <p>+55 32 99981-2804</p> 
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="rodape_element">
-              <div class="rodape_element_info">
-                <p> 2023 </p>
-                <i class="bi bi-c-circle"></i>
-                <p> Desenvolvido pela MK-Tech | Projeto sem fins comerciais </p>
-              </div>
-          </div>
-        </footer>
-        <!--Fim do rodape-->
+    <?php
+      include_once('Temples/Footer/footer.php')
+    ?>
+    </footer>
+       
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4a850b78df.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

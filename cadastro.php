@@ -18,7 +18,7 @@
     <link rel="icon" type="image/png" href="/assets/Logo_sem_escrito_sem_fundo.png">
     <link rel="icon" type="image/png" href="/assets/icon.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="http://localhost/Projeto_EsclareceAi/styles/login.css">
 
 </head>
 
@@ -30,8 +30,8 @@
 
         <div class="total_cadastro"> <!--Div que engloba todos os elementos dentro do formulário-->
 
-            <img class="Logo" src="/assets/EsclareceAi__3_-removebg-preview.png" width="250" height="250"> 
-            <form action = "/login.html"> <!--Action direciona para a tela de login ao clicar no botão do formulário-->
+            <img class="Logo" src="http://localhost/Projeto_EsclareceAi/assets/EsclareceAi__3_-removebg-preview.png" width="250" height="250"> 
+            <form action = "http://localhost/Projeto_EsclareceAi/login.php"> <!--Action direciona para a tela de login ao clicar no botão do formulário-->
 
                 <div class="conteudo_login"> <!--Div que engloba todos os Campos do input-->
                     
@@ -72,10 +72,10 @@
                             <i class="bi bi-lock-fill" style="font-size:0.85em; margin-left: 0.5em;"></i>
                         </div>
                         <div class="mostrar_senha">   
-                            <input maxlength="16" minlength="8" class ="campo_login" type="password" name="confirma" size="15" placeholder ="Confirmação de senha" id = "icone_senha" required onchange='confereSenha()'>                                
+                            <input maxlength="16" minlength="8" class ="campo_login" type="password" name="confirma" size="15" placeholder ="Confirmação de senha" id = "icone_senha2" required onchange='confereSenha()'>                                
                             <i class="bi bi-eye-fill olhinho" id="btn-senha2" onclick="mostrarSenha2()"></i>
                         </div>
-                </div>
+                    </div>
 
                 </div><!--conteudo_login-->
             
@@ -84,7 +84,7 @@
 
             <!--Opção de fazer login no site-->
             <div class="campo_cadastro">
-                <a class="cadastro" href="/login.html">Já tem um conta? Clique aqui</a>
+                <a class="cadastro" href="http://localhost/Projeto_EsclareceAi/login.php">Já tem um conta? Clique aqui</a>
             </div>
 
             </form>            
@@ -92,14 +92,8 @@
 
     </main>
 
-    <div class="Rodape-Cadastro">
-        <!--<footer class="rodape">
-            <p>Desenvolvido por MK-Tech</p>
-        </footer>-->
-    </div>
-
-    <script src="/Login.js"></script>
-
+    <script src="http://localhost/Projeto_EsclareceAi/js/Login.js"></script>
+    <script src="http://localhost/Projeto_EsclareceAi/js/mostrarsenha.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 

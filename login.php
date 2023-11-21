@@ -15,10 +15,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Login </title>
-    <link rel="icon" type="image/png" href="/assets/icon.png" />
+    <link rel="icon" type="image/png" href="http://localhost/Projeto_EsclareceAi/assets/icon.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="http://localhost/Projeto_EsclareceAi/styles/login.css">
 
 </head>
 
@@ -27,9 +27,9 @@
     <main class="apresentacao">
         <div class="total"> <!--Div que engloba todos os elementos da main-->
 
-            <img class="Logo" src="/assets/EsclareceAi__3_-removebg-preview.png" width="250" height="250"> <!--Logo do site-->
+            <img class="Logo" src="http://localhost/Projeto_EsclareceAi/assets/EsclareceAi__3_-removebg-preview.png" width="250" height="250"> <!--Logo do site-->
 
-            <form action="/principal.html"> <!--Action direciona para a tela principal ao clicar no botão do formulário-->
+            <form action="http://localhost/Projeto_EsclareceAi/principal.php"> <!--Action direciona para a tela principal ao clicar no botão do formulário-->
 
                 <div class="login_total"><!--Div que engloba todos os elementos dentro do formulário-->
                     <div class="conteudo_login"><!--Div que engloba todos os Campos do input-->
@@ -71,7 +71,7 @@
 
                     <!--Opção de cadastrar-se no site-->
                     <div class="campo_cadastro">
-                        <a class="cadastro" href="/cadastro.html">Cadastre-se aqui</a>
+                        <a class="cadastro" href="http://localhost/Projeto_EsclareceAi/cadastro.php">Cadastre-se aqui</a>
                     </div>
 
                 </div>
@@ -79,7 +79,7 @@
         </div>
     </main>
 
-    <script src="/Login.js"></script>
+    <script src="http://localhost/Projeto_EsclareceAi/js/Login.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
