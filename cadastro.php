@@ -34,21 +34,21 @@
                 <div class="conteudo_login"> <!--Div que engloba todos os Campos do input-->
                     
                     <div class="input_icone">
-                        <div class="campo_input_icone">
+                        <div class="campo_input_icone_email">
                             <i class="bi bi-person-fill" style="font-size:2.4rem; margin-left: 0.4em;"></i>
                         </div>
                         <input class="campo_login" type="text" id="icone_nome" placeholder="Nome completo" required>
                     </div> 
 
                     <div class="input_icone">
-                        <div class="campo_input_icone">
+                        <div class="campo_input_icone_email">
                             <i class="bi bi-person-fill" style="font-size:2.4rem; margin-left: 0.4em;"></i>
                         </div>
                         <input class="campo_login" type="text" id="icone_nome" placeholder="Nome de usuário" required>
                     </div> 
                             
                     <div class="input_icone">
-                        <div class="campo_input_icone">
+                        <div class="campo_input_icone_email">
                             <i class="bi bi-envelope-fill" style="font-size:2.1rem; margin-left: 0.5em;"></i>
                         </div>
                         <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" required>
@@ -56,7 +56,7 @@
 
 
                     <div class="input_icone">
-                            <div class="campo_input_icone">
+                            <div class="campo_input_icone_senha">
                                 <i class="bi bi-lock-fill" style="font-size:0.85em; margin-left: 0.5em;"></i>
                             </div>
                             <div class="mostrar_senha">   
@@ -66,7 +66,7 @@
                     </div>
 
                     <div class="input_icone">
-                        <div class="campo_input_icone">
+                        <div class="campo_input_icone_senha">
                             <i class="bi bi-lock-fill" style="font-size:0.85em; margin-left: 0.5em;"></i>
                         </div>
                         <div class="mostrar_senha">   

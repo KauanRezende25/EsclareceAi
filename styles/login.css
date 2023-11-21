@@ -92,11 +92,17 @@ body {
 .input_icone{
     display: flex;
     flex-direction: row;
+    
 }
-.campo_input_icone{
-    background-color:#4fafff ;
-    height: 1.17em;
+.campo_input_icone_email{
+    background-color:#4fafff ; 
     width: 1.5em;
+}
+.campo_input_icone_senha{
+    background-color:#4fafff;
+    height: 1.121em; 
+    width: 1.4em;
+    
 }
 .campo_login::placeholder {
     color:#fff;
@@ -119,12 +125,12 @@ body {
     position: absolute;
     right: 4%;
     color:#003c63;
+    color: #fff;
 }
 
 /*============================================= LEMBRAR SENHA =============================================
 (pertence apenas a tela de login)*/
 .lembrar_senha {
-    display: flex;
     display: flex;
     text-decoration: none;
     justify-content: flex-start;

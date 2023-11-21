@@ -35,15 +35,15 @@
                     <div class="conteudo_login"><!--Div que engloba todos os Campos do input-->
 
                         <div class="input_icone">
-                            <div class="campo_input_icone">
+                            <div class="campo_input_icone_email">
                                 <i class="bi bi-envelope-fill" style="font-size:2.2rem; margin-left: 0.4em;"></i>
                             </div>
                             <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" required>
                         </div>
 
                         <div class="input_icone">
-                            <div class="campo_input_icone">
-                                <i class="bi bi-lock-fill" style="font-size:0.85em; margin-left: 0.5em;"></i>
+                            <div class="campo_input_icone_senha">
+                                <i class="bi bi-lock-fill" style="font-size:0.8em; margin-left: 0.7rem; "></i>
                             </div>
                             <div class="mostrar_senha">   
                                 <input maxlength="16" minlength="8" class="campo_login" type="password" id="icone_senha" placeholder = "Senha">
