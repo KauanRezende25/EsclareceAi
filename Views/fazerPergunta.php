@@ -41,7 +41,7 @@
             <div class="rodape_perguntas">
                 <div>
                     <div class="campo_botao_pergunta">
-                        <a class="botao_pergunta" href="http://localhost/Projeto_EsclareceAi/fazerPergunta.php">Publicar</a>
+                        <a class="botao_pergunta" href="http://localhost/Projeto_EsclareceAi/Views/fazerPergunta.php">Publicar</a>
                     </div>
                 </div>
 

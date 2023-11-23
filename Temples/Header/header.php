@@ -10,18 +10,18 @@
             <ul class="navbar-nav links_links_navbar me-auto mb-2 mb-lg-0">
             
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost/Projeto_EsclareceAi/login.php" style="color: white">Entrar</a>
+                <a class="nav-link" href="http://localhost/Projeto_EsclareceAi/Views/login.php" style="color: white">Entrar</a>
             </li>
             
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="http://localhost/Projeto_EsclareceAi/principal.php" style="color: white;">Home</a>
+                <a class="nav-link" aria-current="page" href="http://localhost/Projeto_EsclareceAi/Views/principal.php" style="color: white;">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost/Projeto_EsclareceAi/sobrenos.php" style="color: white">Sobre nós</a>
+                <a class="nav-link" href="http://localhost/Projeto_EsclareceAi/Views/sobrenos.php" style="color: white">Sobre nós</a>
             </li>
 
             <li class="nav-item-pergunta">
-                <a class="nav-link" href="http://localhost/Projeto_EsclareceAi/fazerPergunta.php" style="color: white">Fazer sua pergunta</a>
+                <a class="nav-link" href="http://localhost/Projeto_EsclareceAi/Views/fazerPergunta.php" style="color: white">Fazer sua pergunta</a>
             </li>
 
             </ul>

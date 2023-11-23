@@ -24,14 +24,14 @@
 
 <body>
 
-    <?php include "Banco.php" ?>
+    <?php include "Model/Banco.php" ?>
 
     <main class="apresentacao">
 
         <div class="total_cadastro"> <!--Div que engloba todos os elementos dentro do formulário-->
 
             <img class="Logo" src="http://localhost/Projeto_EsclareceAi/assets/EsclareceAi__3_-removebg-preview.png" width="250" height="250"> 
-            <form action = "http://localhost/Projeto_EsclareceAi/login.php"> <!--Action direciona para a tela de login ao clicar no botão do formulário-->
+            <form action = "http://localhost/Projeto_EsclareceAi/Views/login.php"> <!--Action direciona para a tela de login ao clicar no botão do formulário-->
 
                 <div class="conteudo_login"> <!--Div que engloba todos os Campos do input-->
                     
@@ -84,7 +84,7 @@
 
             <!--Opção de fazer login no site-->
             <div class="campo_cadastro">
-                <a class="cadastro" href="http://localhost/Projeto_EsclareceAi/login.php">Já tem um conta? Clique aqui</a>
+                <a class="cadastro" href="http://localhost/Projeto_EsclareceAi/Views/login.php">Já tem um conta? Clique aqui</a>
             </div>
 
             </form>            

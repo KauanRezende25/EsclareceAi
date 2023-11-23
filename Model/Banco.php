@@ -6,4 +6,4 @@
         
         $pdo= new PDO ("mysql:host=$hostname;dbname=$bancodedados","$usuario","$senha");
     
-?> 
+?>

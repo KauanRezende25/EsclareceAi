@@ -29,7 +29,7 @@
 
             <img class="Logo" src="http://localhost/Projeto_EsclareceAi/assets/EsclareceAi__3_-removebg-preview.png" width="250" height="250"> <!--Logo do site-->
 
-            <form action="http://localhost/Projeto_EsclareceAi/principal.php"> <!--Action direciona para a tela principal ao clicar no botão do formulário-->
+            <form action="http://localhost/Projeto_EsclareceAi/Views/principal.php"> <!--Action direciona para a tela principal ao clicar no botão do formulário-->
 
                 <div class="login_total"><!--Div que engloba todos os elementos dentro do formulário-->
                     <div class="conteudo_login"><!--Div que engloba todos os Campos do input-->
@@ -71,7 +71,7 @@
 
                     <!--Opção de cadastrar-se no site-->
                     <div class="campo_cadastro">
-                        <a class="cadastro" href="http://localhost/Projeto_EsclareceAi/cadastro.php">Cadastre-se aqui</a>
+                        <a class="cadastro" href="http://localhost/Projeto_EsclareceAi/Views/cadastro.php">Cadastre-se aqui</a>
                     </div>
 
                 </div>

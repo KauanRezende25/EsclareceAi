@@ -37,7 +37,7 @@
 
 <body>
   <header>
-    <?php include_once('Temples/Header/header.php') ?>
+    <?php include_once('C:\xampp\htdocs\Projeto_EsclareceAi\Temples/Header/header.php') ?>
   </header>
 
   <div class="elementos_perguntas">
@@ -181,7 +181,7 @@
   <!--Também usamos o botstrap icon para colocar alguns elementos na parte de contatos-->
   <footer>
     <?php
-      include_once('Temples/Footer/footer.php')
+      include_once('C:\xampp\htdocs\Projeto_EsclareceAi\Temples/Footer/footer.php')
     ?>
   </footer>
   <!--Fim do rodape-->
