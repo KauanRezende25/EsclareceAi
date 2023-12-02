@@ -48,12 +48,11 @@
     align-items: center;
     background-color: #fff;
     width: 500px;
-    height: 660px;
+    height: 50rem;
     margin-top: 50px;
     margin-bottom: 50px;
     position: relative;
 }
-
 .Logo{
     display: flex;
     margin-bottom: -30px;
@@ -127,6 +126,14 @@ body {
     color:#003c63;
     color: #fff;
 }
+.setas::-webkit-inner-spin-button 
+{
+    -webkit-appearance: none;
+}
+.setas
+{
+    -moz-appearance: textfield;
+}
 
 /*============================================= LEMBRAR SENHA =============================================
 (pertence apenas a tela de login)*/
@@ -184,6 +191,7 @@ body {
 .Registro:hover {
     color: rgb(92, 92, 93);
 }
+
 /*============================================= BOTÃO =============================================*/
 
 .botao {

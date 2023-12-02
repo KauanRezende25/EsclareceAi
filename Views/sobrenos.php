@@ -32,7 +32,7 @@
 <body>
 
   <header>
-    <?php include_once('C:\xampp\htdocs\Projeto_EsclareceAi\Temples/Header/header.php') ?>
+    <?php include_once('/xampp/htdocs/Projeto_EsclareceAi/Templates/Header/header.php') ?>
   </header>
    
     <main class="apresentacao"> 
@@ -93,7 +93,7 @@
 
     <footer>
     <?php
-      include_once('C:\xampp\htdocs\Projeto_EsclareceAi\Temples/Footer/footer.php')
+      include_once('/xampp/htdocs/Projeto_EsclareceAi/Templates/Footer/footer.php')
     ?>
     </footer>
        

@@ -5,6 +5,9 @@
     2° Informática
 -->
 
+<?php
+    include_once("/xampp/htdocs/Projeto_EsclareceAi/Model/CRUDCadastro.php")
+?>
 <!DOCTYPE html>
 
 <html lang="pt-br">
@@ -24,14 +27,12 @@
 
 <body>
 
-    <?php include "Model/Banco.php" ?>
-
     <main class="apresentacao">
 
         <div class="total_cadastro"> <!--Div que engloba todos os elementos dentro do formulário-->
 
             <img class="Logo" src="http://localhost/Projeto_EsclareceAi/assets/EsclareceAi__3_-removebg-preview.png" width="250" height="250"> 
-            <form action = "http://localhost/Projeto_EsclareceAi/Views/login.php"> <!--Action direciona para a tela de login ao clicar no botão do formulário-->
+            <form method="post"> <!--Action direciona para a tela de login ao clicar no botão do formulário-->
 
                 <div class="conteudo_login"> <!--Div que engloba todos os Campos do input-->
                     
@@ -39,21 +40,43 @@
                         <div class="campo_input_icone_email">
                             <i class="bi bi-person-fill" style="font-size:2.4rem; margin-left: 0.4em;"></i>
                         </div>
-                        <input class="campo_login" type="text" id="icone_nome" placeholder="Nome completo" required>
+                        <input class="campo_login" type="text" id="icone_nome" placeholder="Nome completo" name="nome" required>
                     </div> 
 
                     <div class="input_icone">
                         <div class="campo_input_icone_email">
                             <i class="bi bi-person-fill" style="font-size:2.4rem; margin-left: 0.4em;"></i>
                         </div>
-                        <input class="campo_login" type="text" id="icone_nome" placeholder="Nome de usuário" required>
+                        <input class="campo_login" type="text" id="icone_nome" placeholder="Nome de usuário" name="user" required>
                     </div> 
                             
                     <div class="input_icone">
                         <div class="campo_input_icone_email">
                             <i class="bi bi-envelope-fill" style="font-size:2.1rem; margin-left: 0.5em;"></i>
                         </div>
-                        <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" required>
+                        <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" name="email" required>
+                    </div>
+
+                    <div class="input_icone">
+                        <div class="campo_input_icone_email">
+                            <i class="bi bi-journal-bookmark-fill" style="font-size:2.0rem; margin-left: 0.4em;"></i>
+                        </div>
+                        <select class="campo_login" id="curso" name="curso" required>
+                            <option selected disabled>Curso</option>
+                            <option value="1">Informática</option>
+                            <option value="2">Eletrotécnica</option>
+                            <option value="3">Mecânica</option>
+                            <option value="4">Eletromecânica</option>
+                            <option value="5">Engenharia de Controle e Automação</option>
+                            <option value="6">Engenharia da Computação</option>
+                        </select>
+                    </div>
+
+                    <div class="input_icone">
+                        <div class="campo_input_icone_email">
+                            <i class="bi bi-1-square-fill" style="font-size:1.9rem; margin-left: 0.5em;"></i>
+                        </div>
+                        <input class="campo_login setas" type="number" id="icone_email" placeholder="Serie" name="serie" min='1' max='3' required>
                     </div>
 
 

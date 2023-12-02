@@ -140,44 +140,41 @@ body{
 }
 /*=========================================== Rodapé ==========================================================*/
 /*na parte do rodape o que de diferente usamos é o background: linear-gradient que foi utilizado para fazer os riscos embaixos dos titulos*/
-.rodape
-{
+.rodape {
     background-color: #0089e4;
     color: white;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding: 1rem;
     display: flex;
-    gap: 15rem ;
+    gap: 12rem;
     align-content: center;
     font-size: 15px;
-    font-family:'Montserrat',sans-serif;
-    margin-bottom: -1.5rem;
-    margin-top: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1.5rem;
     display: flex;
     align-self: center;
     justify-content: center;
 }
 
-.info_empresa
-{
-    font-size: 25px;
+.info_empresa {
+
+    font-size: 1.2rem;
     font-weight: bolder;
 }
 
-.info_empresa_element
-{
+.info_empresa_element {
     background-image: linear-gradient(white, white);
     background-repeat: no-repeat;
     background-size: 100% 3px;
     background-position: left bottom;
-    background-position-y: 2.5rem;
-    height: 50px;
-    width: 110px;
-    margin-bottom: 0.8rem;
+    background-position-y: 1.8rem;
+    height: 3rem;
+    width: 7rem;
+    margin-bottom: -0.5rem;
 }
-.info_contatos
-{
+
+.info_contatos {
     display: flex;
     gap: .2rem;
     flex-direction: column;
@@ -185,59 +182,61 @@ body{
     justify-items: baseline;
 
 }
-.elementos
-{
+
+.elementos {
     display: flex;
     justify-items: baseline;
     gap: .5rem;
-    margin-bottom: .5rem;
+    margin-bottom: -.3rem;
+    font-size: 14px;
 }
-.rodape_element
-{
+
+.rodape_element {
     background-color: #005E9D;
     display: flex;
     justify-content: center;
     gap: 0.5rem;
     width: 100%;
     color: white;
-    padding: -4rem;
+    padding: -5rem;
+    margin-top: -2rem;
 }
-.rodape_element_info
-{
+
+.rodape_element_info {
     margin-top: 1%;
     display: flex;
     gap: 0.5rem;
-    font-family:'Montserrat',sans-serif;
-    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
-.sublinhado
-{
+
+.sublinhado {
     display: flex;
     margin-top: 2rem;
     background-color: white;
 
 }
-.info_links_element
-{
+
+.info_links_element {
     background-image: linear-gradient(white, white);
     background-repeat: no-repeat;
     background-size: 100% 3px;
     background-position: left bottom;
-    background-position-y: 2.5rem;
-    height: 50px;
-    width: 140px;
-    margin-bottom: 0.8rem;
+    background-position-y: 1.8rem;
+    height: 3rem;
+    width: 7rem;
+    margin-bottom: -0.5rem;
 }
-.elementos_suporte
-{
+
+.elementos_suporte {
     display: flex;
     justify-items: baseline;
     text-decoration: none;
     color: white;
-    margin-bottom: .5rem;
+    margin-bottom: 1.5rem;
 }
-.elementos_suporte:hover
-{
+
+.elementos_suporte:hover {
     transition: 0.2ms;
     opacity: 80%;
 }

@@ -10,7 +10,7 @@
             <ul class="navbar-nav links_links_navbar me-auto mb-2 mb-lg-0">
             
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost/Projeto_EsclareceAi/Views/login.php" style="color: white">Entrar</a>
+                <a class="nav-link" href="http://localhost/Projeto_EsclareceAi/Views/login.php" style="color: white">Sair</a>
             </li>
             
             <li class="nav-item">
@@ -26,7 +26,7 @@
 
             </ul>
 
-            <form class="d-flex pesquisa" role="search">
+            <form class="d-flex pesquisa" role="search" style="margin-bottom:1.8rem;">
                 <input class="form-control me-2" type="search" placeholder="Pesquisar Resposta" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit" style="border: #4FAFFF; background-color: #4FAFFF; color: white;">Pesquisar</button>
             </form>

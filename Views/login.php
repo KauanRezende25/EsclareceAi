@@ -5,6 +5,10 @@
     2° Informática
 -->
 
+<?php
+    include_once("/xampp/htdocs/Projeto_EsclareceAi/Model/CRUDlogin.php");
+?>
+
 <!DOCTYPE html>
 
 <html lang="pt-br">
@@ -29,7 +33,7 @@
 
             <img class="Logo" src="http://localhost/Projeto_EsclareceAi/assets/EsclareceAi__3_-removebg-preview.png" width="250" height="250"> <!--Logo do site-->
 
-            <form action="http://localhost/Projeto_EsclareceAi/Views/principal.php"> <!--Action direciona para a tela principal ao clicar no botão do formulário-->
+            <form method="post"> <!--Action direciona para a tela principal ao clicar no botão do formulário-->
 
                 <div class="login_total"><!--Div que engloba todos os elementos dentro do formulário-->
                     <div class="conteudo_login"><!--Div que engloba todos os Campos do input-->
@@ -38,7 +42,7 @@
                             <div class="campo_input_icone_email">
                                 <i class="bi bi-envelope-fill" style="font-size:2.2rem; margin-left: 0.4em;"></i>
                             </div>
-                            <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" required>
+                            <input class="campo_login" type="email" id="icone_email" placeholder="E-mail" name="email" required>
                         </div>
 
                         <div class="input_icone">
@@ -46,7 +50,7 @@
                                 <i class="bi bi-lock-fill" style="font-size:0.8em; margin-left: 0.7rem; "></i>
                             </div>
                             <div class="mostrar_senha">   
-                                <input maxlength="16" minlength="8" class="campo_login" type="password" id="icone_senha" placeholder = "Senha">
+                                <input maxlength="16" minlength="8" class="campo_login" type="password" id="icone_senha" placeholder = "Senha"  name="senha" required>
                                 <i class="bi bi-eye-fill olhinho" id="btn-senha" onclick="mostrarSenha()"></i>
                             </div>
                         </div>

@@ -41,4 +41,3 @@ function confereSenha(){
             confirma.setCustomValidity('Senhas não conferem');
         }
 }
-

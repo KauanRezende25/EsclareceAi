@@ -37,7 +37,7 @@
 
 <body>
   <header>
-    <?php include_once('C:\xampp\htdocs\Projeto_EsclareceAi\Temples/Header/header.php') ?>
+    <?php include_once('/xampp/htdocs/Projeto_EsclareceAi/Templates/Header/header.php') ?>
   </header>
 
   <div class="elementos_perguntas">
@@ -89,90 +89,9 @@
         <div>
           <p class="titulo">PERGUNTAS MAIS RECENTES</p><br>
         </div>
-        <div class="conteudo_pergunta">
-          <div class="perguntas_informacoes">
-
-            <div class="info_nome_user">
-              <i class="bi bi-person-circle" style="font-size: 50px;"></i>              
-              <p class="nome_user">KarlaComK</p>
-            </div>
-            <div class="info_informacoes">
-              <p class="informacoes"><i class="bi bi-globe-americas" style="margin-right: .5rem;"></i>Geografia. Há 4 horas</p>
-              
-            </div>
-
-          </div>
-          <p class="texto_pergunta">Como podemos relacionar formas do relevo e ocupação humana? 
-            Quais as formas de relevo em que há maior ocupação da sociedade? Quais são os problemas mais comuns das áreas urbanas?</p>
-          <div class="alinhamento_resp">
-            <a class="Resposta" href="#">Responder</a>
-            <ul class="rating">
-              <li class="star-icon ativo" data-avaliacao="1"></li>
-              <li class="star-icon" data-avaliacao="2"></li>
-              <li class="star-icon" data-avaliacao="3"></li>
-              <li class="star-icon" data-avaliacao="4"></li>
-              <li class="star-icon" data-avaliacao="5"></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="conteudo_pergunta">
-          <div class="perguntas_informacoes">
-
-            <div class="info_nome_user">
-              <i class="bi bi-person-circle" style="font-size: 50px;"></i>              
-              <p class="nome_user">Laís moranguinho</p>
-            </div>
-
-            <div class="info_informacoes">
-              <p class="informacoes"><i class="bi bi-calculator-fill" style="margin-right: .5rem;"></i>Matemática. Há 1 dia</p>
-            </div>
-
-          </div>
-          <p class="texto_pergunta">Os quartos são valores que dividem o conjunto de dados ordenados (rol) em 4 partes iguais 
-            (em cada uma das quatro partes tem-se 25% dos dados). Qual destes quartos é o valores situado na série de dados á 
-            direita da mediana de tal modo que 75% das observações são menores que ele e 25% são maiores?</p>
-            <div class="alinhamento_resp">
-              <a class="Resposta" href="#">Responder</a>
-              <ul class="rating">
-                <li class="star-icon ativo" data-avaliacao="1"></li>
-                <li class="star-icon" data-avaliacao="2"></li>
-                <li class="star-icon" data-avaliacao="3"></li>
-                <li class="star-icon" data-avaliacao="4"></li>
-                <li class="star-icon" data-avaliacao="5"></li>
-              </ul>
-            </div>
-        </div>
-
-        <div class="conteudo_pergunta">
-          <div class="perguntas_informacoes">
-
-            <div class="info_nome_user">
-              <i class="bi bi-person-circle" style="font-size: 50px;"></i>              
-              <p class="nome_user">NandinhaPVP2023</p>
-            </div>
-
-            <div class="info_informacoes">
-              <p class="informacoes"><i class="bi bi-journal-bookmark" style="margin-right: .5rem;"></i>Português. Há 3 dias</p>
-              
-            </div>
-
-          </div><!--fim pergunta_informacao-->
-          <p class="texto_pergunta">As funções da linguagem estão diretamente ligadas aos elementos essenciais do processo de 
-            comunicação, e uma delas é definida como uma conversa “de elevador”, “de fila do banco”, aquela rápida e que fazemos por educação no dia a dia. É a função:</p>
-            <div class="alinhamento_resp">
-              <a class="Resposta" href="#">Responder</a>
-              <ul class="rating">
-                <li class="star-icon ativo" data-avaliacao="1"></li>
-                <li class="star-icon" data-avaliacao="2"></li>
-                <li class="star-icon" data-avaliacao="3"></li>
-                <li class="star-icon" data-avaliacao="4"></li>
-                <li class="star-icon" data-avaliacao="5"></li>
-              </ul>
-            </div>
-
-
-      </div>
+        <?php
+          include ('/xampp/htdocs/Projeto_EsclareceAi/Model/CRUDPerguntas.php');
+        ?>
     </main>
   </div>
   <!--Fim da área de perguntas-->
@@ -181,7 +100,7 @@
   <!--Também usamos o botstrap icon para colocar alguns elementos na parte de contatos-->
   <footer>
     <?php
-      include_once('C:\xampp\htdocs\Projeto_EsclareceAi\Temples/Footer/footer.php')
+      include_once('/xampp/htdocs/Projeto_EsclareceAi/Templates/Footer/footer.php')
     ?>
   </footer>
   <!--Fim do rodape-->
