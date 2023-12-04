@@ -46,13 +46,13 @@
       <nav class="navegacao_menu_lateral">
         <ul class="menu_lateral_conteudo">
           <p class="titulo-menu">Disciplinas</p>
-          <a class="menu_lateral_links" href=""><i class="fa-solid fa-flag-usa"
+          <a class="menu_lateral_links" href=""><i class="bi bi-flag"
               style="margin-right: 1rem; font-size: 1.3rem;"></i>Inglês</a>
-          <a class="menu_lateral_links" href=""><i class="fa-solid fa-flask-vial"
+          <a class="menu_lateral_links" href=""><i class="bi bi-type-h2"
               style="margin-right: 1rem; font-size: 1.3rem;"></i>Química</a>
           <a class="menu_lateral_links" href=""><i class="bi bi-calculator-fill"
               style="margin-right: 1rem; font-size: 1.3rem;"></i>Matemática</a>
-          <a class="menu_lateral_links" href=""><i class="fa-solid fa-dna"
+          <a class="menu_lateral_links" href=""><i class="bi bi-virus"
               style="margin-right: 1rem; font-size: 1.3rem;"></i>Biologia</a>
           <a class="menu_lateral_links" href=""><i class="bi bi-magnet-fill"
               style="margin-right: 1rem; font-size: 1.3rem;"></i>Física</a>
@@ -64,7 +64,7 @@
               style="margin-right: 1rem; font-size: 1.3rem"></i>Geografia</a>
           <a class="menu_lateral_links" href=""><i class="bi bi-bank"
               style="margin-right: 1rem; font-size: 1.3rem"></i>História</a>
-          <a class="menu_lateral_links" href=""><i class="fa-solid fa-brain"
+          <a class="menu_lateral_links" href=""><i class="bi bi-lightbulb-fill"
               style="margin-right: 1rem; font-size: 1.3rem"></i>Filosofia</a>
           <a class="menu_lateral_links" href=""><i class="bi bi-people"
               style="margin-right: 1rem; font-size: 1.3rem"></i>Sociologia</a>
@@ -76,6 +76,10 @@
               style="margin-right: 1rem; font-size: 1.3rem"></i>Mecânica</a>
           <a class="menu_lateral_links" href=""><i class="bi bi-cpu"
               style="margin-right: 0.8rem; font-size: 1.3rem"></i>Eletromecânica</a>
+          <a class="menu_lateral_links" href=""><i class="bi bi-robot"
+              style="margin-right: 0.8rem; font-size: 1.3rem"></i>Engenharia de Controle e Automação</a>
+          <a class="menu_lateral_links" href=""><i class="bi bi-pc-display-horizontal"
+              style="margin-right: 0.8rem; font-size: 1.3rem;"></i>Engenharia da Computação</a>
         </ul>
       </nav>
     </div>
@@ -100,7 +104,7 @@
   <!--Também usamos o botstrap icon para colocar alguns elementos na parte de contatos-->
   <footer>
     <?php
-      include_once('/xampp/htdocs/Projeto_EsclareceAi/Templates/Footer/footer.php')
+      include("/xampp/htdocs/Projeto_EsclareceAi/Templates/Footer/footer.php");
     ?>
   </footer>
   <!--Fim do rodape-->

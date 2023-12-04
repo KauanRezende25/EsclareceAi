@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fazer pergunta</title>
-    <link rel="stylesheet" href="http://localhost/Projeto_EsclareceAi/styles/fazerPergnta.css">
+    <link rel="stylesheet" href="http://localhost/Projeto_EsclareceAi/styles/fazerPergunta.css">
     <link rel="icon" type="image/png" href="http://localhost/Projeto_EsclareceAi/assets/icon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -18,7 +18,10 @@
         <div class="campo_total_fazer_pergunta">
 
             <div class="cabecalho_pergunta">               
-
+    
+                <div class="voltar">
+                    <a href="http://localhost/Projeto_EsclareceAi/Views/principal.php"><i class="bi bi-arrow-left-short" style="font-size: 2rem; color: black;" ></i></a>
+                </div>
                 <p class="titulo_campo_pergunta">Adicionar uma pergunta</p>
 
                 <div class="botao_escolher_disciplina">
