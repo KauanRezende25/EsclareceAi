@@ -25,8 +25,26 @@
                 <p class="titulo_campo_pergunta">Adicionar uma pergunta</p>
 
                 <div class="botao_escolher_disciplina">
-                    <button class="escolher_disciplina">Escolher disciplina</button>
-                    <i class="bi bi-caret-down-fill setinha"></i>
+                    <select class="escolher_disciplina" name='disciplina'>
+                        <option disabled>Escolher disciplina</option>
+                        <option value="1">Inglês</option>
+                        <option value="2">Química</option>
+                        <option value="3">Matemática</option>
+                        <option value="4">Biologia</option>
+                        <option value="5">Física</option>
+                        <option value="6">Português</option>
+                        <option value="7">Redação</option>
+                        <option value="8">Geografia</option>
+                        <option value="9">História</option>
+                        <option value="10">Filosofia</option>
+                        <option value="11">Sociologia</option>
+                        <option value="12">Informática</option>
+                        <option value="13">Eletrotécnica</option>
+                        <option value="14">Mecânica</option>
+                        <option value="15">Eletromecânica</option>
+                        <option value="16">Engenharia de Controle e Automação</option>
+                        <option value="17">Engenharia da Computação</option>
+                    </select>
                 </div>
             </div>
 
@@ -39,12 +57,14 @@
                 </ul>
             </div>
             
-            <input class="campo_pergunta" type="text" placeholder="Digite sua dúvida...">
+            <form method="post">
+                <input class="campo_pergunta" type="text" placeholder="Digite sua dúvida..." name="pergunta" required>
+           
 
             <div class="rodape_perguntas">
                 <div>
                     <div class="campo_botao_pergunta">
-                        <a class="botao_pergunta" href="http://localhost/Projeto_EsclareceAi/Views/fazerPergunta.php">Publicar</a>
+                        <button class="botao_pergunta" type="submit">Publicar</a>
                     </div>
                 </div>
 
@@ -52,7 +72,7 @@
                         <img class="logo" src="http://localhost/Projeto_EsclareceAi/assets/EsclareceAi__3_-removebg-preview.png">
                 </div>
             </div>
-            
+            </form>
         </div>
     </main>
 

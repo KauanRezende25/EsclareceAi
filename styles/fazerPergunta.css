@@ -58,9 +58,18 @@
     border: black;
     border-radius: 1.5em;
     padding: 0.5rem 1.7rem;
+    margin-left: -5rem;
+    width: 17rem;
     position: relative;
-    right: 5%;
     background-color: #f3a051;
+}
+.escolher_disciplina:hover
+{
+    cursor: pointer;
+}
+.botao_pergunta:hover
+{
+    background-color: #ffba52;
 }
 .setinha{
     position: absolute;
@@ -69,10 +78,11 @@
     display:flex;
     align-self: center;
     width: 43rem;
-    height: 30em;
+    height: 15rem;
     border-radius: 1em;
     background-color: #89caff;
     outline: 0;
+    margin-left: 3rem;
 }
 .campo_pergunta::placeholder{
     font-family: 'Montserrat', sans-serif;

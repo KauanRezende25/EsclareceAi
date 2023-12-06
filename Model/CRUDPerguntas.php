@@ -74,7 +74,7 @@ foreach ($conteudo as $option) {
                 <?php } ?>
                 <?php if($option['fk_Disciplina_Id_disc']===12)
                 {?>
-                    <i class='bi bi-pc-display"' style='margin-right: .5rem;'></i>
+                    <i class='bi bi-pc-display' style='margin-right: .5rem;'></i>
                 <?php } ?>
                 <?php if($option['fk_Disciplina_Id_disc']===13)
                 {?>
